@@ -34,13 +34,13 @@ export default function Pricing() {
 
 	return (
 		<div className="h-screen">
-			<div className="[clip-path:polygon(0_0,100%_20%,100%_100%,0_100%)] bg-celeste w-8/12 flex justify-center h-[48rem]">
+			<div className="[clip-path:polygon(0_0,100%_20%,100%_100%,0_100%)] bg-celeste w-8/12 flex justify-center items-center h-[55rem]">
 				<div className="w-screen mx-20 ">
 					<h1 className="uppercase font-bold text-7xl text-negro mt-32">Pricing</h1>
 					<div className="flex mt-4">
 						{
 							pricingInfo.map(data => (
-								<div key={data.title} className="bg-white flex flex-col items-center w-80 mx-5 pb-2 text-negro">
+								<div key={data.title} className="bg-white flex flex-col items-center w-80 mx-5 pb-2 text-negro ">
 									<div className="mt-5">
 										<Image
 											src={data.src}

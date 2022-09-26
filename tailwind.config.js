@@ -13,6 +13,13 @@ module.exports = {
         'negro': '#1E2235',
         'toNegro': '#251E35',
         'gris': '#424867'
+      },
+      screens: {
+        'm2xl': { 'raw': '(max-width: 1535px)' },
+        'mxl': { 'raw': '(max-width: 1279px)' },
+        'mlg': { 'raw': '(max-width: 1023px)' },
+        'mmd': { 'raw': '(max-width: 767px)' },
+        'msm': { 'raw': '(max-width: 639px)' },
       }
     },
   },

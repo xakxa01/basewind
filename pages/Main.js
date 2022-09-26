@@ -1,16 +1,16 @@
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Pricing from '../components/Pricing'
+import Why from '../components/Why'
 
 function Main() {
 
-	const classname = 'bg-gradient-to-r from-negro to-toNegro'
-
 	return (
-		<div className='pb-96 bg-gradient-to-r from-negro to-toNegro'>
+		<div>
 			<Navbar />
 			<Hero />
 			<Pricing />
+			<Why />
 		</div>
 	)
 }
