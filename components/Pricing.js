@@ -33,7 +33,7 @@ export default function Pricing() {
 	]
 
 	return (
-		<div className="h-screen">
+		<div className="h-[60rem]">
 			<div className="[clip-path:polygon(0_0,100%_20%,100%_100%,0_100%)] bg-celeste w-8/12 flex justify-center items-center h-[55rem]">
 				<div className="w-screen mx-20 ">
 					<h1 className="uppercase font-bold text-7xl text-negro mt-32">Pricing</h1>
